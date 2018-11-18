@@ -1,0 +1,74 @@
+.wrapper {
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 90%;
+}
+.prod-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Niramit", sans-serif;
+  }
+body{
+    background: url("../css/cover-big.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#prod-name {
+  font-size: 55px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.button{
+    margin-top: 15px;
+    margin-left:auto;
+    margin-right: auto; 
+}
+.prod-blue {
+    background-color: #9c27b0;
+    padding: 5px 20px;
+    border-radius: 50px;
+    color: #fff;
+    margin:0;
+  }
+  .inputField {
+    border: none !important;
+    border-bottom: solid 2px black !important;
+    background: transparent;
+    width: 90%;
+    font-size: 2em;
+    color: black;
+    font-family: 'Muli', sans-serif;
+    /* text-align: center; */
+}
+.inputField:focus {
+    outline: none
+}
+.buttonSpacing{
+    margin-right: 10px !important;
+}
+
+@media (min-width: 1281px) {
+    body {
+      background-size: cover;
+    }
+    .inputField{
+        width:40%
+    }
+    .inputContainer{
+        margin-left:35% 
+    }
+    .button{
+        margin-left:38%
+    }
+    .fas{
+        font-size: 30px;
+      }  
+}

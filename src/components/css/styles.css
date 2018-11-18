@@ -1,0 +1,249 @@
+.click-btn {
+	position: absolute;
+	right: 0;
+	background: transparent;
+	border: none;
+	color: #000;
+	font-size: 2.5em;
+	z-index: 99999;
+}
+.click-btn:focus {
+	outline: none;
+}
+
+.camera-btn-wrapper {
+	position: absolute;
+	width: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.camera-contain {
+	width: fit-content;
+	margin: 0 auto;
+}
+button.MuiButtonBase-root-57.MuiButton-root-131.MuiButton-contained-142.MuiButton-containedPrimary-143.MuiButton-raised-145.MuiButton-raisedPrimary-146.btn-search {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+}
+.camera-btn {
+    position: relative;
+    background: #E91E63;
+    border: none;
+    width: fit-content;
+    color: #fff;
+    font-size: 3em;
+    padding: 16px 19px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 1px #ddd;
+    cursor: pointer;
+}
+.click-text {
+	width: 100%;
+	text-align: center;
+}
+.click-text p{
+	font-family: 'Muli', sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	
+}
+.view-details-wrapper, .flex, h4 {
+    padding: 5px 10px !important;
+}
+
+.view-image {
+   padding: 5px;
+}
+#image-object {
+	width: 100%;
+}
+.details-top {
+    display: flex;
+    justify-content: center;
+}
+.details-top p:nth-child(1) {
+	position: relative;
+	font-family: 'Muli', sans-serif;
+	text-transform: capitalize;
+	font-size: 1.2em;
+	margin-top: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+	background: #4CAF50;
+	color: #fff;
+	padding: 3px 11px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#class-identify:before {
+	content: "";
+	position: absolute;
+	top:0px;
+	left:-30px;
+	border-top: solid 15px transparent;
+	border-bottom: solid 15px transparent;
+	border-left: solid 15px transparent;
+	border-right: solid 15px #4CAF50;
+}
+#class-identify:after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -9px;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+button.camera-btn.small {
+    font-size: 1.4em;
+    padding: 10px 12px;
+}
+.height-all {
+	height: 160px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec-detail {
+	margin-bottom: 20px;
+}
+
+.flex-item {
+    display: flex;
+}
+p.text-dd {
+    font-size: 1.2em;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    /* font-weight: bold; */
+    font-family: 'Muli', sans-serif;
+}
+
+p.content-dd {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: 'Muli', sans-serif;
+    margin-right: 10px;
+}
+h4 {
+    margin: 0;
+    font-size: 1.7em;
+    font-weight: lighter;
+}
+.loader-wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+.load-er {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+ #image-object {
+    width: 100%;
+    max-width: 400px;
+}
+.view-image {
+	text-align: center;
+}
+.height-all {
+	height: 200px;
+	width: 45%;
+}
+.flex-bar {
+	display: flex;
+	justify-content: space-evenly;
+}
+.flex {
+	justify-content: center;
+}
+.sec-detail {
+	text-align: center;
+}
+
+
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  #image-object {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+body {
+	width: -webkit-fill-available;
+}
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+body {
+	width: fit-content;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+body {
+	width: fit-content;
+}
+
+  
+}
